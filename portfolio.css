@@ -1,0 +1,96 @@
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    padding: auto, 0;
+    font-family: "Montserrat", sans-serif;
+    background: rgb(25, 22, 51);
+}
+
+header {
+    border: 1px solid rgb(25, 22, 51);
+    background: rgb(25, 22, 51);
+    display: flex;
+}
+
+header h1 {
+    color: white;
+    padding-left: 40px;
+    width: 50%;
+}
+
+nav {
+    width: 50%;
+    justify-content: flex-end, center;
+    justify-items: center;
+    display: flex;
+    justify-content: stretch;
+    padding-top: 15px;
+    padding-left: 180px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    align-items: end;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sobre  .content {
+    display: flex;
+    align-items: center;
+}
+
+.sobre  img {
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px black;
+    margin-right: 35px; 
+}
+
+.sobre  .text {
+    color: white;
+    text-align: left;
+    width: 450px;
+}
+
+
+.projetos{
+    background: rgb(255, 255, 255);
+    height: 300px;
+
+}
+
+.projetos h2{
+    margin-left: 15px;
+    padding-top: 20px;
+}
+.projeto-item{
+    margin-left: 20px;
+}
+
+.contato{
+    color: white;
+    margin-left: 20px;
+}
